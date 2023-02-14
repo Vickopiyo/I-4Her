@@ -1,34 +1,21 @@
 import React from "react"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { Link } from "react-router-dom"
 
-const Nav = () => {
-	let links = [
-		{ name: "Home", link: "/" },
-		{ name: "Projects", link: "/projects" },
-		{ name: "Donate", link: "/donate" },
-	]
+import logo from "../assets/logo.jpg"
 
+const Nav = () => {    
 	return (
-		<div className="shadow-md w-full  fixed top-0  left-0">
-			<div className="md:flex  justify-between  bg-sky-300 py-7  md:px-10 px-6">
-				<h1 className="font-bold text-2xl cursor-pointer  flex  items-center  text-white-300">
-					Initiative4Her
-				</h1>
-
-				<FontAwesomeIcon icon="fa-solid fa-bars" />   
-                
-				<ul className="md:flex md:items-center border-green-800  text-white">
-					{links.map((link, index) => {
-						return (
-							<li key={index} className="md:ml-8 text-xl">
-								<Link to={link.link}>{link.name}</Link>
-							</li>
-						)
-					})}
-				</ul>
+		<header className="w-full h-24 bg-gray-900  sticky  top-0 z-50 ">        
+			<div className="flex  justify-between  w-full">
+				<img src={logo} alt="logo" className="w-24 h-24 object-cover" />
+				<nav  className=" w-[80%]  flex place-content-center">
+					<ul className="flex items-center text-white md:text-2xl">
+						<li className="mx-4  cursor-pointer">Home</li>
+						<li  className="mx-4 cursor-pointer">About Us</li>
+						<li  className="mx-4  cursor-pointer">Our Projects</li>
+					</ul>
+				</nav>
 			</div>
-		</div>
+		</header>
 	)
 }
 
