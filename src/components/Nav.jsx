@@ -1,6 +1,8 @@
 import React from "react"
 
-import logo from "../assets/logo.jpg"
+import logo from "../assets/logo.jpg"   
+
+import { Link } from "react-router-dom"
 
 const Nav = () => {    
 	return (
@@ -8,15 +10,24 @@ const Nav = () => {
 			<div className="flex  justify-between  w-full">
 				<img src={logo} alt="logo" className="w-24 h-24 object-cover" />
 				<nav  className=" w-[80%]  flex place-content-center">
-					<ul className="flex items-center text-white md:text-2xl">
-						<li className="mx-4  cursor-pointer">Home</li>
-						<li  className="mx-4 cursor-pointer">About Us</li>
-						<li  className="mx-4  cursor-pointer">Our Projects</li>
+					<ul className="flex items-center text-white md:text-2xl">  
+
+						<li className="mx-4  cursor-pointer">
+
+                            <Link to="/">Home</Link>
+                        </li>
+						<li  className="mx-4 cursor-pointer">
+
+                            <Link  to="/about">About Us</Link>
+                        </li>
+						<li  className="mx-4  cursor-pointer">
+                        <Link  to="/projects">Projects</Link> 
+                        </li>
 					</ul>
 				</nav>
 			</div>
 		</header>
 	)
 }
-
+                   
 export default Nav
