@@ -21,16 +21,16 @@ const Footer = () => {
 				<div class="px-4 py-16 sm:px-6 lg:col-span-3 lg:px-8">
 					<div class="grid grid-cols-1 gap-8 sm:grid-cols-2">
 						<div>
-							<p className="">
+							<p className="mb-4">
 								<span class="text-xs tracking-wide text-gray-200 uppercase dark:text-gray-200">
 									Contact Us
 								</span>
 
 								<a
 									href="#"
-									class="block text-2xl font-medium text-gray-200 hover:opacity-75 dark:text-white sm:text-3xl">
+									class="block text-xl font-medium text-gray-200 hover:opacity-75 dark:text-white sm:text-2xl">
 									+254702795923
-								</a>
+								</a>     
 							</p>
 							<p>
 								<span class="text-xs tracking-wide text-gray-200 uppercase dark:text-gray-200">
@@ -39,15 +39,15 @@ const Footer = () => {
 
 								<a
 									href="#"
-									class="block text-xl font-medium text-gray-200 hover:opacity-75 dark:text-white sm:text-3xl">
+									class="block text-xl font-medium text-gray-200 hover:opacity-75 dark:text-white sm:text-2xl">
 									initiative4her@gmail.com
 								</a>
 							</p>
 
-							<ul class="mt-8 space-y-1 text-sm text-gray-200 dark:text-gray-200">
+							{/* <ul class="mt-8 space-y-1 text-sm text-gray-200 dark:text-gray-200">
 								<li>Monday to Friday: 10am - 5pm</li>
 								<li>Weekend: 10am - 3pm</li>
-							</ul>
+							</ul> */}
 
 							<ul class="flex gap-6 mt-8">
 								<li>
