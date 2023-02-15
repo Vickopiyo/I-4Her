@@ -16,11 +16,11 @@ const Nav = () => {
 
                             <Link to="/">Home</Link>
                         </li>
-						<li  className="mx-4 cursor-pointer  md:mx-5">
+						<li  className="mx-2 cursor-pointer  md:mx-5">
 
                             <Link  to="/about">About Us</Link>
                         </li>
-						<li  className="mx-4  cursor-pointer  md:mx-5">
+						<li  className="mx-2 cursor-pointer  md:mx-5">
                         <Link  to="/projects">Projects</Link> 
                         </li>
 					</ul>
