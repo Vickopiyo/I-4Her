@@ -1,7 +1,11 @@
 import React from "react"
 import heropic from "./assets/floo.jpg"
 import Footer from "./components/Footer"
-import Nav from "./components/Nav"
+import Nav from "./components/Nav"  
+import gallery1 from "./assets/padsss.jpg"
+import gallery2 from "./assets/pads.jpg"      
+import gallery3  from "./assets/morepads.jpg"
+import gallery4 from "./assets/seminars.jpg"   
 
 const Home = () => {
 	return (
@@ -15,7 +19,6 @@ const Home = () => {
 					/>
 					<div className="max-w-[1140px] m-auto ">
 						<div className="absolute top-[50%]  text-white  w-[80%]  flex  justify-center p-4 ">
-							{/* <h1>Protected girl for a better tommorrow</h1>    */}
 							<h2 className="font-bold  text-3xl  md:text-5xl  m-4">
 								Saving the future of young girls in kenya
 							</h2>
@@ -32,10 +35,11 @@ const Home = () => {
 						<header class="text-center mx-auto mb-12 lg:px-20">
 							<h2 class="text-3xl leading-normal mb-2 font-bold text-black">
 								What We Do
-							</h2>         
-						
+							</h2>
+
 							<p class="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2">
-								We offer support  &amp; empower young girls in rural areas  for a brighter future.
+								We offer support &amp; empower young girls in rural areas for a
+								brighter future.
 							</p>
 						</header>
 
@@ -44,16 +48,16 @@ const Home = () => {
 								class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
 								data-wow-duration="1s"
 								// style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;"
-                                >
+							>
 								<div class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
-									<div class="inline-block text-gray-900 mb-4">
-									
-									</div>
+									<div class="inline-block text-gray-900 mb-4"></div>
 									<h3 class="text-lg leading-normal mb-2 font-semibold text-black">
-										Reproductive Health  Education
+										Reproductive Health Education
 									</h3>
 									<p class="text-gray-500">
-										We go around schools in remote parts of Kenya to create awareness and  offer sexual reproductive education to young girls.
+										We go around schools in remote parts of Kenya to create
+										awareness and offer sexual reproductive education to young
+										girls.
 									</p>
 								</div>
 							</div>
@@ -62,16 +66,16 @@ const Home = () => {
 								data-wow-duration="1s"
 								data-wow-delay=".1s"
 								// style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInUp;"
-                                >
+							>
 								<div class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
-									<div class="inline-block text-gray-900 mb-4">
-									
-									</div>
+									<div class="inline-block text-gray-900 mb-4"></div>
 									<h3 class="text-lg leading-normal mb-2 font-semibold text-black">
-										Girl Child Empowerment 
+										Girl Child Empowerment
 									</h3>
 									<p class="text-gray-500">
-										Together with a team of successful female personalities, we visit both primary and secondary schools in rural Kenya to share their life journey and offer career Guidance
+										Together with a team of successful female personalities, we
+										visit both primary and secondary schools in rural Kenya to
+										share their life journey and offer career Guidance
 									</p>
 								</div>
 							</div>
@@ -80,16 +84,16 @@ const Home = () => {
 								data-wow-duration="1s"
 								data-wow-delay=".3s"
 								// style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;"
-                                >
+							>
 								<div class="py-8 px-12 mb-16 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
-									<div class="inline-block text-gray-900 mb-4">
-										
-									</div>
+									<div class="inline-block text-gray-900 mb-4"></div>
 									<h3 class="text-lg leading-normal mb-2 font-semibold text-black">
-									    Environmental Awareness
+										Environmental Awareness
 									</h3>
 									<p class="text-gray-500">
-										We are cognizant of importance of a preserving and improving our environment thus we are at the forefront of championing for environment awareness through our programs.
+										We are cognizant of importance of a preserving and improving
+										our environment thus we are at the forefront of championing
+										for environment awareness through our programs.
 									</p>
 								</div>
 							</div>
@@ -97,16 +101,17 @@ const Home = () => {
 								class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
 								data-wow-duration="1s"
 								// style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;"
-                                >
+							>
 								<div class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
-									<div class="inline-block text-gray-900 mb-4">
-								
-									</div>
+									<div class="inline-block text-gray-900 mb-4"></div>
 									<h3 class="text-lg leading-normal mb-2 font-semibold text-black">
-									Sanitary Towels Drives 
+										Sanitary Towels Drives
 									</h3>
 									<p class="text-gray-500">
-										Through our little way and support from our partners, we conduct regular donations of sanitary towels to school going girls.This boosts their confidence and self esteem while interacting with others.
+										Through our little way and support from our partners, we
+										conduct regular donations of sanitary towels to school going
+										girls.This boosts their confidence and self esteem while
+										interacting with others.
 									</p>
 								</div>
 							</div>
@@ -115,16 +120,17 @@ const Home = () => {
 								data-wow-duration="1s"
 								data-wow-delay=".1s"
 								// style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInUp;"
-                                >
+							>
 								<div class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
-									<div class="inline-block text-gray-900 mb-4">
-									
-									</div>
+									<div class="inline-block text-gray-900 mb-4"></div>
 									<h3 class="text-lg leading-normal mb-2 font-semibold text-black">
-										Clothes Drives 
+										Clothes Drives
 									</h3>
 									<p class="text-gray-500">
-										Decent clothing is a basic human right.We therefore lobby for both used and new clothes from well wishers.We then distribute to the young and needy girls which really boosts their confidence and self esteem.
+										Decent clothing is a basic human right.We therefore lobby
+										for both used and new clothes from well wishers.We then
+										distribute to the young and needy girls which really boosts
+										their confidence and self esteem.
 									</p>
 								</div>
 							</div>
@@ -133,16 +139,17 @@ const Home = () => {
 								data-wow-duration="1s"
 								data-wow-delay=".3s"
 								// style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;"
-                                >
+							>
 								<div class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
-									<div class="inline-block text-gray-900 mb-4">
-									
-									</div>
+									<div class="inline-block text-gray-900 mb-4"></div>
 									<h3 class="text-lg leading-normal mb-2 font-semibold text-black">
-										Digital Literacy Program 
+										Digital Literacy Program
 									</h3>
 									<p class="text-gray-500">
-										We offer scholarships on short courses such as computer packages and basic coding skills.This is our way of improving digital literacy and also influencing girls to get into STEM related courses.
+										We offer scholarships on short courses such as computer
+										packages and basic coding skills.This is our way of
+										improving digital literacy and also influencing girls to get
+										into STEM related courses.
 									</p>
 								</div>
 							</div>
@@ -150,6 +157,79 @@ const Home = () => {
 					</div>
 				</div>
 			</div>
+               
+
+
+
+
+
+
+
+<div class="flex items-center justify-center min-h-screen bg-white py-20">
+    <div class="flex flex-col">
+    
+        <div class="flex flex-col mt-6">
+            <div class="container max-w-7xl px-4">
+                <div class="flex flex-wrap justify-center text-center mb-24">
+                    <div class="w-full lg:w-6/12 px-4">
+                        <h1 class="text-gray-900 text-4xl font-bold mb-8">
+                        Our Gallery
+                        </h1>
+
+                        <p class="text-gray-700 text-lg font-light">
+                            Enjoy some of our moments 
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex flex-wrap">
+                    <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
+                        <div class="flex flex-col">
+                            <a href="#" class="mx-auto">
+                                <img class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+                                    src={gallery1}/>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
+                        <div class="flex flex-col">
+                            <a href="#" class="mx-auto">
+                                <img class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+                                    src={gallery2}/>
+                            </a>
+
+                            
+                        </div>
+                    </div>
+
+                    <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
+                        <div class="flex flex-col">
+                            <a href="#" class="mx-auto">
+                                <img class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+                                src={gallery3}/>
+                            </a>
+
+                            
+                        </div>
+                    </div>
+
+                    <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
+                        <div class="flex flex-col">
+                            <a href="#" class="mx-auto">
+                                <img class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+                                    src={gallery4}/>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+			        
 		</div>
 	)
 }
