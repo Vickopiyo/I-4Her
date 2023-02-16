@@ -1,12 +1,16 @@
 import React from "react"
 import heropic from "./assets/floo.jpg"
 import Footer from "./components/Footer"
-import Nav from "./components/Nav"  
+import Nav from "./components/Nav"
 import gallery1 from "./assets/padsss.jpg"
-import gallery2 from "./assets/pads.jpg"      
-import gallery3  from "./assets/morepads.jpg"
-import gallery4 from "./assets/seminars.jpg"   
-
+import gallery2 from "./assets/pads.jpg"
+import gallery3 from "./assets/morepads.jpg"
+// import gallery4 from "./assets/beth.jpg"  
+import  gallery5 from "./assets/paddonation.jpg"  
+import gallery6 from "./assets/books.jpg"   
+import gallery7 from "./assets/vitabu.jpg"
+import gallery8 from "./assets/turudishule.jpg"         
+import gallery9 from "./assets/sheryl.jpg"
 const Home = () => {
 	return (
 		<div>
@@ -157,79 +161,115 @@ const Home = () => {
 					</div>
 				</div>
 			</div>
-               
 
+			<div class="flex items-center justify-center min-h-screen bg-white py-20">
+				<div class="flex flex-col">
+					<div class="flex flex-col mt-6">
+						<div class="container max-w-7xl px-4">
+							<div class="flex flex-wrap justify-center text-center mb-24">
+								<div class="w-full lg:w-6/12 px-4">
+									<h1 class="text-gray-900 text-4xl font-bold mb-8">
+										Our Gallery
+									</h1>
 
+									<p class="text-gray-700 text-lg font-light">
+										Enjoy some of our moments
+									</p>
+								</div>
+							</div>
 
+							<div class="flex flex-wrap">
+								<div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
+									<div class="flex flex-col">
+										<a href="#" class="mx-auto">
+											<img
+												class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+												src={gallery1}
+											/>
+										</a>
+									</div>
+								</div>
 
+								<div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
+									<div class="flex flex-col">
+										<a href="#" class="mx-auto">
+											<img
+												class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+												src={gallery2}
+											/>
+										</a>
+									</div>
+								</div>
 
+								<div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
+									<div class="flex flex-col">
+										<a href="#" class="mx-auto">
+											<img
+												class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+												src={gallery3}
+											/>
+										</a>
+									</div>
+								</div>
 
+								<div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
+									<div class="flex flex-col">
+										<a href="#" class="mx-auto">
+											<img
+												class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+												src={gallery7}
+											/>
+										</a>
+									</div>
+								</div>
 
-<div class="flex items-center justify-center min-h-screen bg-white py-20">
-    <div class="flex flex-col">
-    
-        <div class="flex flex-col mt-6">
-            <div class="container max-w-7xl px-4">
-                <div class="flex flex-wrap justify-center text-center mb-24">
-                    <div class="w-full lg:w-6/12 px-4">
-                        <h1 class="text-gray-900 text-4xl font-bold mb-8">
-                        Our Gallery
-                        </h1>
+								<div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
+									<div class="flex flex-col">
+										<a href="#" class="mx-auto">
+											<img
+												class="rounded-2xl object-cover drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+												src={gallery5}
+											/>
+										</a>
+									</div>
+								</div>
 
-                        <p class="text-gray-700 text-lg font-light">
-                            Enjoy some of our moments 
-                        </p>
-                    </div>
-                </div>
+								<div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
+									<div class="flex flex-col">
+										<a href="#" class="mx-auto">
+											<img
+												className="rounded-2xl h-75 w-75  object-cover drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+												src={gallery6}
+											/>
+										</a>
+									</div>
+								</div>
+								<div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
+									<div class="flex flex-col">
+										<a href="#" class="mx-auto">
+											<img
+												className="rounded-2xl object-cover drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+												src={gallery8}
+											/>
+										</a>
+									</div>
+								</div>
 
-                <div class="flex flex-wrap">
-                    <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
-                        <div class="flex flex-col">
-                            <a href="#" class="mx-auto">
-                                <img class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
-                                    src={gallery1}/>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
-                        <div class="flex flex-col">
-                            <a href="#" class="mx-auto">
-                                <img class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
-                                    src={gallery2}/>
-                            </a>
-
-                            
-                        </div>
-                    </div>
-
-                    <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
-                        <div class="flex flex-col">
-                            <a href="#" class="mx-auto">
-                                <img class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
-                                src={gallery3}/>
-                            </a>
-
-                            
-                        </div>
-                    </div>
-
-                    <div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
-                        <div class="flex flex-col">
-                            <a href="#" class="mx-auto">
-                                <img class="rounded-2xl drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
-                                    src={gallery4}/>
-                            </a>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-			        
+								<div class="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
+									<div class="flex flex-col">
+										<a href="#" class="mx-auto">
+											<img
+												className="rounded-2xl object-cover drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+												src={gallery9}
+											/>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	)
 }
