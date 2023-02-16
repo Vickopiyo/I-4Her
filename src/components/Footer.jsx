@@ -6,10 +6,10 @@ import footer from '../assets/morepads.jpg'
 const Footer = () => {
         
   return (
-		<div>
+		<div >
 			<footer
 				aria-label="Site Footer"
-				class="bg-gray-900 dark:bg-gray-900 lg:grid lg:grid-cols-5">
+				className="bg-gray-900  dark:bg-gray-900 lg:grid lg:grid-cols-5">
 				<div class="relative block h-32 lg:col-span-2 lg:h-full">
 					<img
 						src={footer}
@@ -44,10 +44,6 @@ const Footer = () => {
 								</a>
 							</p>
 
-							{/* <ul class="mt-8 space-y-1 text-sm text-gray-200 dark:text-gray-200">
-								<li>Monday to Friday: 10am - 5pm</li>
-								<li>Weekend: 10am - 3pm</li>
-							</ul> */}
 
 							<ul class="flex gap-6 mt-8">
 								<li>
