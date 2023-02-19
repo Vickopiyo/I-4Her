@@ -162,6 +162,14 @@ const Home = () => {
 				</div>
 			</div>
 
+			{/* OUR PARTNERS  */}
+
+			<h2 className="  text-gray-900 text-center text-4xl font-bold  mb-8">Our Partners </h2>   
+
+
+     
+
+	         {/* OUR GALLERY  */}
 			<div class="flex items-center justify-center min-h-screen bg-white py-20">
 				<div class="flex flex-col">
 					<div class="flex flex-col mt-6">
@@ -270,6 +278,7 @@ const Home = () => {
 					</div>
 				</div>
 			</div>
+			{/* Our partners Section */}
 		</div>
 	)
 }
