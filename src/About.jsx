@@ -10,14 +10,29 @@ const About = () => {
   return (
 		<div>
 			<div class="py-16 bg-white">
-				<div class="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
-					<div>
-						<h1 className="text-2xl  text-center mb-10  text-gray-900 font-bold md:text-4xl">
-							Our Mission
-						</h1>
-					</div>
-					<div class="space-y-6 md:space-y-0 md:flex md:gap-6  lg:gap-12">
-						<div class="md:5/12 lg:w-5/12">
+				<div class="text-center  px-10 mx-auto mb-[60px] lg:mb-20 max-w-[610px]">
+					<span class="font-semibold text-lg text-primary mb-2 block"></span>
+					<h2
+						class="
+                  font-bold
+                  text-3xl
+                  sm:text-4xl
+                  md:text-[40px]
+                  text-dark
+                  mb-4
+                  ">
+						Our Mission
+					</h2>
+					<p class="text-base text-body-color">
+						InitiativeForHer is a grassroot movement which seeks to provide a
+						better  environment for girlchild to thrive in education and
+						society in the rural areas of Kenya.
+					</p>
+				</div>
+
+				<div class="container  m-auto px-6 text-gray-600 md:px-12 xl:px-16">
+					<div class="space-y-6 md:space-y-0 md:flex md:gap-6  lg:gap-8">
+						<div class="md:5/12 lg:w-9/12">
 							<img src={ceo} alt="image" loading="lazy" width="" height="" />
 						</div>
 						<div class="md:12/12 lg:w-12/12">
@@ -25,16 +40,9 @@ const About = () => {
 								Beverly Nicole - Founder
 							</h2>
 							<p class="mt-6 text-gray-600">
-								Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum
-								omnis voluptatem accusantium nemo perspiciatis delectus atque
-								autem! Voluptatum tenetur beatae unde aperiam, repellat expedita
-								consequatur! Officiis id consequatur atque doloremque!
+								Growing up at the shores of lake Victoria,I witnessed a high rate of school dropout among girls.The leading cause was extreme poverty which led some of these girls to early marriages.Many a times, I witnessed  girls being stigmatized during their monthly periods.This heartbroke me so many times seeing some of the girls perfomance going down or even  getting sexually involved with fishermen and motorbike operators for exchange of basic needs such as clothes and sanitary towels.I felt challenged by these occurences and thus founding InitiativeForHer which helps to seek the root causes and address such shortcomings in our society. 
 							</p>
-							<p class="mt-4 text-gray-600">
-								Nobis minus voluptatibus pariatur dignissimos libero quaerat
-								iure expedita at? Asperiores nemo possimus nesciunt dicta veniam
-								aspernatur quam mollitia.
-							</p>
+						
 						</div>
 					</div>
 				</div>

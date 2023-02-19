@@ -42,7 +42,7 @@ const Home = () => {
 							</h2>
 
 							<p class="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2">
-								We offer support &amp; empower young girls in rural areas for a
+								We  support &amp; empower young girls in rural areas for a
 								brighter future.
 							</p>
 						</header>
