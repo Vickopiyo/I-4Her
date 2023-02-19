@@ -172,7 +172,7 @@ const Projects = () => {
                         text-dark
                         hover:text-primary
                         ">
-										
+
 											Turudi Shule,Apida Market Centre.
 									</h3>
 									<p class="text-base text-body-color">
@@ -183,7 +183,7 @@ const Projects = () => {
 						</div>
 					</div>
 				</div>
-			</section>
+			</section>   
 		</div>
 	)
 }
