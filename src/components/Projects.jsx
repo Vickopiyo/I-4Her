@@ -70,7 +70,7 @@ const Projects = () => {
                         ">
 										Sanitary Donation Drive, Seka DOK Primary School
 									</h3>
-									<p class="text-base text-body-color">
+									<p class="text-justify leading-relaxed  tracking-normal ">
 										After learning through a friend,a female teacher at Seka DOK
 										Primary who wrote to us about the dire need of Sanitary
 										hygiene amongst girls in upper primary.She went ahead to
@@ -91,11 +91,7 @@ const Projects = () => {
 						<div class="w-full md:w-1/2 lg:w-1/3 px-4">
 							<div class="max-w-[370px] mx-auto mb-10">
 								<div class="rounded overflow-hidden mb-8">
-									<img
-										src={were}
-										alt="Book Donation Drive"
-										class="w-full"
-									/>
+									<img src={were} alt="Book Donation Drive" class="w-full" />
 								</div>
 								<div>
 									<span
@@ -125,11 +121,24 @@ const Projects = () => {
                         inline-block
                         text-dark
                         hover:text-primary
-                        ">   
-                        Book Donation Drive,Kamser Primary School
+                        ">
+										Book Donation Drive,Kamser Primary School
 									</h3>
-									<p class="text-base text-body-color">
-										According  to the HeadTeacher Kamser Primary School,the leading cause of poor perfomance in the schools especially girls is the inadequate reading and revision materials.We remain truly grateful to the Miss Tourism Homabay County 2022 Beth Odek and Kenya Literature Bureau who generously supported us in this  drive.We were able to donate over 100 course books for different subjects from languages to  sciences.In addition,to curb the challenge  of reading and writting skills,we were able to donate over 60 story books which go along a way to enhancing storytelling skills of pupils.We were exicted to get a letter from the HeadTeacher earlier this year informing us of the skyrocket National exams results compared to previous years.He attributed this great results to our efforts last year.
+									<p class=" text-justify  leading-relaxed  tracking-normal">
+										According to the HeadTeacher Kamser Primary School,the
+										leading cause of poor perfomance in the schools especially
+										girls is the inadequate reading and revision materials.We
+										remain truly grateful to the Miss Tourism Homabay County
+										2022 Beth Odek and Kenya Literature Bureau who generously
+										supported us in this drive.We were able to donate over 100
+										course books for different subjects from languages to
+										sciences.In addition,to curb the challenge of reading and
+										writting skills,we were able to donate over 60 story books
+										which go along a way to enhancing storytelling skills of
+										pupils.We were exicted to get a letter from the HeadTeacher
+										earlier this year informing us of the skyrocket National
+										exams results compared to previous years.He attributed this
+										great results to our efforts last year.
 									</p>
 								</div>
 							</div>
@@ -138,7 +147,7 @@ const Projects = () => {
 							<div class="max-w-[370px] mx-auto mb-10">
 								<div class="rounded overflow-hidden mb-8">
 									<img
-										src={turudishule}  
+										src={turudishule}
 										alt="Community Advocacy"
 										className="w-full h-60 object-cover"
 									/>
@@ -172,18 +181,29 @@ const Projects = () => {
                         text-dark
                         hover:text-primary
                         ">
-
-											Turudi Shule,Apida Market Centre.
+										Turudi Shule,Apida Market Centre.
 									</h3>
-									<p class="text-base text-body-color">
-										According to Kenya National Bureau of Statistics report 2019,33 percent of girls in Homabay drop out of School every year.This has been attributed to early marriages.This shocking statistics gave birth to one of our initiatives dubbed Turudi Shule.Turudi Shule is a swahili word to mean "Let's go back to  school".Through this initiative, we visit market centers along beaches which have been hard hit by this disaster.We talk with young girls who have been victims of these circumstances.We then talk  with them on the benefits of education and support those who agree emotionally and materially.Through this advocacy, we have brought more than 20 girls back to school.Some have proceeded to the unviersity and thus lives changed. 
+									<p class="text-base text-body-color  text-justify  leading-relaxed  tracking-normal ">
+										According to Kenya National Bureau of Statistics report
+										2019,33 percent of girls in Homabay drop out of School every
+										year.This has been attributed to early marriages.This
+										shocking statistics gave birth to one of our initiatives
+										dubbed Turudi Shule.Turudi Shule is a swahili word to mean
+										"Let's go back to school".Through this initiative, we visit
+										market centers along beaches which have been hard hit by
+										this disaster.We talk with young girls who have been victims
+										of these circumstances.We then talk with them on the
+										benefits of education and support those who agree
+										emotionally and materially.Through this advocacy, we have
+										brought more than 20 girls back to school.Some have
+										proceeded to the unviersity and thus lives changed.
 									</p>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</section>   
+			</section>
 		</div>
 	)
 }

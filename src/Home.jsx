@@ -143,7 +143,7 @@ const Home = () => {
 									<h3 class="text-lg leading-normal mb-2 font-semibold text-black">
 										Digital Literacy Program
 									</h3>
-									<p class="text-gray-500">
+									<p class="text-gray-500  ">
 										We offer scholarships on short courses such as computer
 										packages and basic coding skills.This is our way of
 										improving digital literacy and also influencing girls to get

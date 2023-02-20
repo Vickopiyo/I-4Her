@@ -33,7 +33,7 @@ const About = () => {
 				<div class="container  m-auto px-6 text-gray-600 md:px-12 xl:px-16">
 					<div class="space-y-6 md:space-y-0 md:flex md:gap-6  lg:gap-8">
 						<div class="md:5/12 lg:w-9/12">
-							<img src={ceo} alt="image" loading="lazy" width="" height="" />
+							<img src={ceo}  className="rounded" alt="image" loading="lazy" width="" height="" />
 						</div>
 						<div class="  md:12/12 lg:w-12/12">
 							<h2 class="text-2xl pt-4 text-gray-900 font-bold md:text-4xl">
