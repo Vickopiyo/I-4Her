@@ -14,7 +14,7 @@ import gallery9 from "./assets/sheryl.jpg"
 const Home = () => {
 	return (
 		<div>
-			<div className="w-screen h-screen">
+			<div className="w-full h-screen">
 				<div className="container-fluid">
 					<img
 						src={heropic}
@@ -34,7 +34,7 @@ const Home = () => {
 			<div className="mb-10 md:mb-4 ">
 				<div
 					id="services"
-					class="section relative pt-10 pb-8 md:pt-10 md:pb-0 bg-white">
+					className="section relative pt-10 pb-8 md:pt-10 md:pb-0 bg-white">
 					<div class="container xl:max-w-6xl mx-auto px-4">
 						<header class="text-center mx-auto mb-12 lg:px-20">
 							<h2 class="text-3xl leading-normal mb-2 font-bold text-black">
@@ -51,7 +51,6 @@ const Home = () => {
 							<div
 								class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
 								data-wow-duration="1s"
-								// style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;"
 							>
 								<div class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
 									<div class="inline-block text-gray-900 mb-4"></div>
@@ -69,7 +68,6 @@ const Home = () => {
 								class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
 								data-wow-duration="1s"
 								data-wow-delay=".1s"
-								// style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInUp;"
 							>
 								<div class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
 									<div class="inline-block text-gray-900 mb-4"></div>
@@ -87,7 +85,6 @@ const Home = () => {
 								class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
 								data-wow-duration="1s"
 								data-wow-delay=".3s"
-								// style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;"
 							>
 								<div class="py-8 px-12 mb-16 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
 									<div class="inline-block text-gray-900 mb-4"></div>
@@ -104,7 +101,6 @@ const Home = () => {
 							<div
 								class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
 								data-wow-duration="1s"
-								// style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;"
 							>
 								<div class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
 									<div class="inline-block text-gray-900 mb-4"></div>
@@ -123,7 +119,6 @@ const Home = () => {
 								class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
 								data-wow-duration="1s"
 								data-wow-delay=".1s"
-								// style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInUp;"
 							>
 								<div class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
 									<div class="inline-block text-gray-900 mb-4"></div>
@@ -142,7 +137,6 @@ const Home = () => {
 								class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
 								data-wow-duration="1s"
 								data-wow-delay=".3s"
-								// style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;"
 							>
 								<div class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
 									<div class="inline-block text-gray-900 mb-4"></div>
@@ -164,15 +158,12 @@ const Home = () => {
 
 			{/* OUR PARTNERS  */}
 
-			<h2 className="  text-gray-900 text-center text-4xl font-bold  mb-8">Our Partners </h2>   
-
-
-     
+			{/* <h2 className="  text-gray-900 text-center text-4xl font-bold  mb-8">Our Partners </h2>    */}
 
 	         {/* OUR GALLERY  */}
-			<div class="flex items-center justify-center min-h-screen bg-white py-20">
+			<div class="flex items-center justify-center min-h-screen bg-white pb-20">
 				<div class="flex flex-col">
-					<div class="flex flex-col mt-6">
+					<div class="flex flex-col mt-2">
 						<div class="container max-w-7xl px-4">
 							<div class="flex flex-wrap justify-center text-center mb-24">
 								<div class="w-full lg:w-6/12 px-4">

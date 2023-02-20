@@ -6,7 +6,7 @@ import footer from '../assets/morepads.jpg'
 const Footer = () => {
         
   return (
-		<div >
+		<div>
 			<footer
 				aria-label="Site Footer"
 				className="bg-gray-900  dark:bg-gray-900 lg:grid lg:grid-cols-5">
@@ -30,7 +30,7 @@ const Footer = () => {
 									href="#"
 									class="block text-xl font-medium text-gray-200 hover:opacity-75 dark:text-white sm:text-2xl">
 									+254702795923
-								</a>     
+								</a>
 							</p>
 							<p>
 								<span class="text-xs tracking-wide text-gray-200 uppercase dark:text-gray-200">
@@ -38,13 +38,12 @@ const Footer = () => {
 								</span>
 
 								<a
-									href="#"
+									href="mailto: initiative4her@gmail.com"
 									class="block text-xl font-medium text-gray-200 hover:opacity-75 dark:text-white sm:text-2xl">
 									initiative4her@gmail.com
 								</a>
 							</p>
-
-
+                                    
 							<ul class="flex gap-6 mt-8">
 								<li>
 									<a
@@ -107,7 +106,6 @@ const Footer = () => {
 										</svg>
 									</a>
 								</li>
-
 							</ul>
 						</div>
 
@@ -120,43 +118,38 @@ const Footer = () => {
 								<nav aria-label="Footer Navigation - Services" class="mt-6">
 									<ul class="space-y-4 text-sm">
 										<li>
-											<a
-												href="#"
+											<p
 												class="text-gray-200 transition hover:opacity-75 dark:text-gray-200">
-												1on1 Coaching
-											</a>
+												1on1 Life Coaching
+											</p>
 										</li>
 
 										<li>
-											<a
-												href="#"
+											<p
 												class="text-gray-200 transition hover:opacity-75 dark:text-gray-200">
 												Girl Child Mentorship
-											</a>
+											</p>
 										</li>
 
 										<li>
-											<a
-												href="#"
+											<p
 												class="text-gray-200 transition hover:opacity-75 dark:text-gray-200">
-												Career Guidance
-											</a>
+												Career Guidance                
+											</p>
 										</li>
 
 										<li>
-											<a
-												href="#"
+											<p
 												class="text-gray-200 transition hover:opacity-75 dark:text-gray-200">
 												Scholarships
-											</a>
+											</p>
 										</li>
 
 										<li>
-											<a
-												href="#"
+											<p
 												class="text-gray-200 transition hover:opacity-75 dark:text-gray-200">
 												Rescue From Early Marriages
-											</a>
+											</p>
 										</li>
 									</ul>
 								</nav>

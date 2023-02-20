@@ -23,7 +23,7 @@ const About = () => {
                   ">
 						Our Mission
 					</h2>
-					<p class="text-base text-body-color">
+					<p class="text-base text-body-color   text-center leading-relaxed">
 						InitiativeForHer is a grassroot movement which seeks to provide a
 						better  environment for girlchild to thrive in education and
 						society in the rural areas of Kenya.
@@ -35,15 +35,15 @@ const About = () => {
 						<div class="md:5/12 lg:w-9/12">
 							<img src={ceo} alt="image" loading="lazy" width="" height="" />
 						</div>
-						<div class="md:12/12 lg:w-12/12">
-							<h2 class="text-2xl  pt-4 text-gray-900 font-bold md:text-4xl">
+						<div class="  md:12/12 lg:w-12/12">
+							<h2 class="text-2xl pt-4 text-gray-900 font-bold md:text-4xl">
 								Beverly Nicole - Founder
 							</h2>
-							<p class="mt-6 text-gray-600">
+							<p class="mt-6 text-gray-600   text-justify sm:text-justify">
 								Growing up at the shores of lake Victoria,I witnessed a high rate of school dropout among girls.The leading cause was extreme poverty which led some of these girls to early marriages.Many a times, I witnessed  girls being stigmatized during their monthly periods.This heartbroke me so many times seeing some of the girls perfomance going down or even  getting sexually involved with fishermen and motorbike operators for exchange of basic needs such as clothes and sanitary towels.I felt challenged by these occurences and thus founding InitiativeForHer which helps to seek the root causes and address such shortcomings in our society. 
 							</p>
-						
-						</div>
+						      
+						</div>        
 					</div>
 				</div>
 			</div>
