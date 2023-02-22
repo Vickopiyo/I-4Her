@@ -9,7 +9,7 @@ const Footer = () => {
 		<div>
 			<footer
 				aria-label="Site Footer"
-				className="bg-gray-900  dark:bg-gray-900 lg:grid lg:grid-cols-5">
+				className="bg-blue-400  dark:bg-blue-400 text-white lg:grid lg:grid-cols-5">
 				<div class="relative block h-32 lg:col-span-2 lg:h-full">
 					<img
 						src={footer}
@@ -111,7 +111,7 @@ const Footer = () => {
 
 						<div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
 							<div>
-								<p class="font-medium text-gray-900 dark:text-white">
+								<p class="font-medium text-2xl dark:text-white">
 									Services
 								</p>
 
@@ -154,40 +154,6 @@ const Footer = () => {
 									</ul>
 								</nav>
 							</div>
-
-							{/* <div>
-								<p class="font-medium text-gray-900 dark:text-white">
-									Organization
-								</p>
-
-								<nav aria-label="Footer Navigation - Company" class="mt-6">
-									<ul class="space-y-4 text-sm">
-										<li>
-											<a
-												href="#"
-												class="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-												About
-											</a>
-										</li>
-
-										<li>
-											<a
-												href="#"
-												class="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-												Meet the Team
-											</a>
-										</li>
-
-										<li>
-											<a
-												href="#"
-												class="text-gray-700 transition hover:opacity-75 dark:text-gray-200">
-												Accounts Review
-											</a>
-										</li>
-									</ul>
-								</nav>
-							</div> */}
 						</div>
 					</div>
 

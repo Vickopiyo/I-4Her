@@ -9,20 +9,22 @@ const Nav = () => {
 	let [open, setOpen] = useState(false)    
 
 	return (
-		<div className="sticky top-0 z-50 ">
+		<div className="sticky top-0 z-50  bg-blue-600  text-white">
 			<div className="shadow-md w-full bg-blue-400  fixed top-0 left-0  ">
 				<div className="md:flex justify-between items-center py-6  md:px-10  px-6">
 					<div className="flex cursor-pointer  justify-between items-center">
 						<div className="flex cursor-pointer items-center">
 							<span className="bg-blue-400 text-white">
-								<svg
+								{/* <svg
 									className="w-8 h-8  fill-current"
 									xmlns="http://www.w3.org/2000/svg"
 									viewBox="0 0 640 512">
 									<path d="M176 304a128 128 0 1 0 0-256 128 128 0 1 0 0 256zM352 176c0 89.1-66.2 162.7-152 174.4V400h48c13.3 0 24 10.7 24 24s-10.7 24-24 24H200v40c0 13.3-10.7 24-24 24s-24-10.7-24-24V448H104c-13.3 0-24-10.7-24-24s10.7-24 24-24h48V350.4C66.2 338.7 0 265.1 0 176C0 78.8 78.8 0 176 0s176 78.8 176 176zM328 318c10.9-11.7 20.5-24.6 28.5-38.6C377.7 294.9 403.8 304 432 304c70.7 0 128-57.3 128-128s-57.3-128-128-128c-28.2 0-54.3 9.1-75.5 24.6c-8-14-17.6-26.9-28.5-38.6C357.1 12.6 393.1 0 432 0c97.2 0 176 78.8 176 176c0 89.1-66.2 162.7-152 174.4V400h48c13.3 0 24 10.7 24 24s-10.7 24-24 24H456v40c0 13.3-10.7 24-24 24s-24-10.7-24-24V448H360c-13.3 0-24-10.7-24-24s10.7-24 24-24h48V350.4c-29.7-4-57-15.5-80-32.4z" />
-								</svg>
+								</svg> */}
+
+								{/* <img src={logo} alt="logo" className="w-8 h-8 object-cover rounded" /> */}
 							</span>
-							<h1 className="font-bold mx-2">I4Her</h1>
+							<h1 className="font-bold   text-3xl mx-2">I4Her</h1>
 						</div>
 					</div>
 					<div
@@ -49,7 +51,7 @@ const Nav = () => {
 
 					<ul
 						className={`md:flex  md:items-center md:pb-0  pb-12  absolute md:static bg-blue-400   md:z-auto z-[-1] left-0  w-full    md:w-auto   md:pl-0   pl-8  transition-all  duration-300  ease-in  ${
-							open ? "top-20 " : "top-[-490px]  duration-600"
+							open ? "top-20 " : "top-[-690px]  duration-600"
 						}  md:opacity-100 `}>
 						<li className="md:ml-18   md:my-0  my-7 hover:duration-300  cursor-pointer">
 							<Link to="/">Home</Link>
@@ -60,11 +62,11 @@ const Nav = () => {
 						<li className="md:ml-8    md:my-0  my-7  hover:duration-300   cursor-pointer">
 							<Link to="/projects">Projects</Link>
 						</li>
-						<li className="md:ml-8    md:my-0  my-7   hover:duration-300  cursor-pointer">
+						{/* <li className="md:ml-8    md:my-0  my-7   hover:duration-300  cursor-pointer">
 							Services
-						</li>
-						<button className="bg-blue-600  rounded text-gray-200   py-3 px-5   md:ml-6  ml-0  hover:text-gray-400 duration-700">
-							Get Started
+						</li> */}
+						<button className="bg-blue-800  rounded text-gray-50   py-3 px-5   md:ml-6  ml-0  hover:text-gray-400 duration-700">
+							Donate
 						</button>
 					</ul>
 				</div>

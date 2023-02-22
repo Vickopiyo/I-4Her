@@ -7,7 +7,8 @@ import Home from "./Home"
 
 function App() {
 	return (
-		<div className="   font-sans scroll-smooth">
+		<div className=" font-sans scroll-smooth"> 
+		
 			<Nav />
 			<Routes>
 				<Route path="/" element={<Home />} />

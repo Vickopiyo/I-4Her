@@ -13,13 +13,13 @@ import gallery8 from "./assets/turudishule.jpg"
 import gallery9 from "./assets/sheryl.jpg"
 const Home = () => {
 	return (
-		<div>
-			<div className="w-full h-screen">
-				<div className="container-fluid">
+		<div className="pt-20">
+			<div className="w-full h-full">
+				<div className="container-fluid h-screen">
 					<img
 						src={heropic}
 						alt="hero"
-						className="w-full h-[80vh]  brightness-50  object-cover"
+						className="w-full h-[100vh]  brightness-50  object-cover"
 					/>
 					<div className="max-w-[1140px] m-auto ">
 						<div className="absolute top-[50%]  text-white  w-[80%]  flex  justify-center p-4 ">
@@ -36,8 +36,10 @@ const Home = () => {
 					id="services"
 					className="section relative pt-5 pb-3 md:pt-10 md:pb-0 bg-white">
 					<div class="container xl:max-w-6xl mx-auto px-4">
-						<header class="text-center mx-auto mb-12 lg:px-20">
-							<h2 class="text-3xl leading-normal mb-2 font-bold text-black">
+						<header class="text-center mx-auto mb-12 lg:px-20"> 
+						<div  className="py-12" >
+
+							<h2 class="text-3xl leading-normal mb-2 font-bold  text-black">
 								What We Do
 							</h2>                           
      
@@ -45,6 +47,7 @@ const Home = () => {
 								We  support &amp; empower young girls in rural areas for a
 								brighter future.
 							</p>
+						</div>
 						</header>
 
 						<div class="flex flex-wrap flex-row -mx-4 text-center">
@@ -52,7 +55,7 @@ const Home = () => {
 								class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
 								data-wow-duration="1s"
 							>
-								<div class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+								<div class="py-8 px-12  rounded-lg  mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
 									<div class="inline-block text-gray-900 mb-4"></div>
 									<h3 class="text-lg leading-normal mb-2 font-semibold text-black">
 										Reproductive Health Education
@@ -69,7 +72,7 @@ const Home = () => {
 								data-wow-duration="1s"
 								data-wow-delay=".1s"
 							>
-								<div class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+								<div class="py-8 px-12 mb-12  rounded-lg  bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
 									<div class="inline-block text-gray-900 mb-4"></div>
 									<h3 class="text-lg leading-normal mb-2 font-semibold text-black">
 										Girl Child Empowerment
@@ -86,7 +89,7 @@ const Home = () => {
 								data-wow-duration="1s"
 								data-wow-delay=".3s"
 							>
-								<div class="py-8 px-12 mb-16 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+								<div class="py-8 px-12 mb-16  rounded-lg  bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
 									<div class="inline-block text-gray-900 mb-4"></div>
 									<h3 class="text-lg leading-normal mb-2 font-semibold text-black">
 										Environmental Awareness
@@ -102,7 +105,7 @@ const Home = () => {
 								class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
 								data-wow-duration="1s"
 							>
-								<div class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+								<div class="py-8 px-12 rounded-lg  mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
 									<div class="inline-block text-gray-900 mb-4"></div>
 									<h3 class="text-lg leading-normal mb-2 font-semibold text-black">
 										Sanitary Towels Drives
@@ -120,7 +123,7 @@ const Home = () => {
 								data-wow-duration="1s"
 								data-wow-delay=".1s"
 							>
-								<div class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+								<div class="py-8 px-12 mb-12  roundede-lg bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
 									<div class="inline-block text-gray-900 mb-4"></div>
 									<h3 class="text-lg leading-normal mb-2 font-semibold text-black">
 										Clothes Drives
@@ -138,7 +141,7 @@ const Home = () => {
 								data-wow-duration="1s"
 								data-wow-delay=".3s"
 							>
-								<div class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+								<div class="py-8 px-12 mb-12  rounded-lg bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
 									<div class="inline-block text-gray-900 mb-4"></div>
 									<h3 class="text-lg leading-normal mb-2 font-semibold text-black">
 										Digital Literacy Program

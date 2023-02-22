@@ -10,9 +10,9 @@ const Projects = () => {
 
 			<section class="pt-20 px-14 lg:pt-[120px] pb-10 lg:pb-20">
 				<div class="container">
-					<div class="flex flex-wrap justify-center -mx-4">
+					<div class="flex flex-wrap  my-20 rounded  px-4 py-6 bg-blue-400 justify-center  items-center -mx-4">
 						<div class="w-full px-4">
-							<div class="text-center mx-auto mb-[60px] lg:mb-20 max-w-[510px]">
+							<div class="text-center   text-white mx-auto mb-[60px] lg:mb-20 max-w-[510px]">
 								<span class="font-semibold text-lg text-primary mb-2 block"></span>
 								<h2
 									class="
@@ -21,6 +21,7 @@ const Projects = () => {
                   sm:text-4xl
                   md:text-[40px]
                   text-dark
+				  pt-4
                   mb-4
                   ">
 									Our Recent Projects
@@ -42,7 +43,7 @@ const Projects = () => {
 								<div>
 									<span
 										class="
-                     bg-gray-900
+                     bg-blue-400
                      rounded
                      inline-block
                      text-center
@@ -70,7 +71,7 @@ const Projects = () => {
                         ">
 										Sanitary Donation Drive, Seka DOK Primary School
 									</h3>
-									<p class="text-justify leading-relaxed  tracking-normal ">
+									<p class="text-justify   text-gray-600  leading-relaxed  tracking-normal ">
 										After learning through a friend,a female teacher at Seka DOK
 										Primary who wrote to us about the dire need of Sanitary
 										hygiene amongst girls in upper primary.She went ahead to
@@ -96,7 +97,7 @@ const Projects = () => {
 								<div>
 									<span
 										class="
-                     bg-gray-900
+                     bg-blue-400
                      rounded
                      inline-block
                      text-center
@@ -124,7 +125,7 @@ const Projects = () => {
                         ">
 										Book Donation Drive,Kamser Primary School
 									</h3>
-									<p class=" text-justify  leading-relaxed  tracking-normal">
+									<p class=" text-justify text-gray-600  leading-relaxed  tracking-normal">
 										According to the HeadTeacher Kamser Primary School,the
 										leading cause of poor perfomance in the schools especially
 										girls is the inadequate reading and revision materials.We
@@ -155,7 +156,7 @@ const Projects = () => {
 								<div>
 									<span
 										class="
-                     bg-gray-900
+                     bg-blue-400
                      rounded
                      inline-block
                      text-center
@@ -183,7 +184,7 @@ const Projects = () => {
                         ">
 										Turudi Shule,Apida Market Centre.
 									</h3>
-									<p class="text-base text-body-color  text-justify  leading-relaxed  tracking-normal ">
+									<p class="text-base text-body-color  text-gray-600   text-justify  leading-relaxed  tracking-normal ">
 										According to Kenya National Bureau of Statistics report
 										2019,33 percent of girls in Homabay drop out of School every
 										year.This has been attributed to early marriages.This
