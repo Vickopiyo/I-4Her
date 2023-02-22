@@ -30,17 +30,17 @@ const Home = () => {
 					</div>
 				</div>
 			</div>
-
+                             
 			<div className="mb-10 md:mb-4 ">
 				<div
 					id="services"
-					className="section relative pt-10 pb-8 md:pt-10 md:pb-0 bg-white">
+					className="section relative pt-5 pb-3 md:pt-10 md:pb-0 bg-white">
 					<div class="container xl:max-w-6xl mx-auto px-4">
 						<header class="text-center mx-auto mb-12 lg:px-20">
 							<h2 class="text-3xl leading-normal mb-2 font-bold text-black">
 								What We Do
-							</h2>
-
+							</h2>                           
+     
 							<p class="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2">
 								We  support &amp; empower young girls in rural areas for a
 								brighter future.

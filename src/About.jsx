@@ -48,7 +48,7 @@ const About = () => {
 				</div>
 			</div>
 
-			<h1 className="text-2xl  text-center mb-6  text-gray-900 font-bold md:text-4xl">
+			<h1 className="text-2xl  text-center   text-gray-900 font-bold md:text-4xl">
 				Meet Our dedicated Team
 			</h1>
 
@@ -81,7 +81,7 @@ const About = () => {
 							<p className="mb-4 text-xs text-gray-800">Secretary</p>
 							<p className="text-sm tracking-wide text-gray-800">
 								Gorety is an accomplished adminstrator who handles documentation
-								of the organization.Highly supportive and Priviledged to have
+								of the organization.Highly supportive and priviledged to have
 								her in our organization.
 							</p>
 						</div>
